@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test utilisation node js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseph-Pittera/Project-starter.git"
+  },
+  "author": "joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joseph-Pittera/Project-starter/issues"
+  },
+  "homepage": "https://github.com/Joseph-Pittera/Project-starter#readme"
+}
