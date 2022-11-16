@@ -1,14 +1,3 @@
-*,
-::before,
-::after {
-  box-sizing: border-box; /* take borders into account for the size of blocks (width/height) */
-  margin: 0;
-  padding: 0;
-}
-/* make the standard font-size at 10px to have 1rem=10px */
-html {
-  font-size: 62.5%; 
-}
 body {
   min-height: 100vh;
   font-family: Lato, Helvetica, sans-serif;
@@ -18,17 +7,10 @@ body {
 }
 body::-webkit-scrollbar {
   width: 10px; /* width of the entire scrollbar */ 
-  background-color: #aaa;
+  background-color: #d1d1d1;
   /* display: none; --> to hide the scrollbar*/ 
 }
 body::-webkit-scrollbar-thumb {
   background-color: grey;
   border-radius: 5px;
-}
-ul {
-  list-style-type: none; /* delete ul style (dots) */
-}
-a {
-  text-decoration: inherit; /* avoid underline on links */
-  color: inherit; /* avoid links to change color on clic */
 }

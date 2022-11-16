@@ -127,3 +127,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* take borders into account for the size of blocks (width/height) */
+*,
+::before,
+::after {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+/* make the standard font-size at 10px to have 1rem=10px */
+html {
+  font-size: 62.5%; 
+}
+
+/* manage ul and a(links) style to none */
+ul {
+  list-style-type: none; /* delete ul style (dots) */
+}
+a {
+  text-decoration: inherit; /* avoid underline on links */
+  color: inherit; /* avoid links to change color on clic */
+}
