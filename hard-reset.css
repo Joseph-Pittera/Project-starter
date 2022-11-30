@@ -150,3 +150,11 @@ a {
   color: inherit; /* avoid links to change color on clic */
 }
 /* radio button => appearance: none to shoot the original format */
+/* remove the blue highlight on clic on mobile */
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
