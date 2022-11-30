@@ -2,8 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-​
-html,
+​ html,
 body,
 div,
 span,
@@ -132,14 +131,14 @@ table {
 *,
 ::before,
 ::after {
-  box-sizing: border-box; 
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 /* make the standard font-size at 10px to have 1rem=10px */
 html {
-  font-size: 62.5%; 
+  font-size: 62.5%;
 }
 
 /* manage ul and a(links) style to none */
@@ -150,3 +149,4 @@ a {
   text-decoration: inherit; /* avoid underline on links */
   color: inherit; /* avoid links to change color on clic */
 }
+/* radio button => appearance: none to shoot the original format */
