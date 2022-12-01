@@ -149,7 +149,7 @@ a {
   text-decoration: inherit; /* avoid underline on links */
   color: inherit; /* avoid links to change color on clic */
 }
-/* radio button => appearance: none to shoot the original format */
+
 /* remove the blue highlight on clic on mobile */
 input,
 textarea,
